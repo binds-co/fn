@@ -1,5 +1,5 @@
 {
-  "name": "fn",
+  "name": "binds-fn",
   "version": "1.0.0",
   "description": "Binds.co function utilities",
   "main": "./lib/index.js",
