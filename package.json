@@ -1,0 +1,32 @@
+{
+  "name": "fn",
+  "version": "1.0.0",
+  "description": "Binds.co function utilities",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binds-co/fn.git"
+  },
+  "author": "Binds.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binds-co/fn/issues"
+  },
+  "homepage": "https://github.com/binds-co/fn#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "jest": "^23.6.0",
+    "semistandard": "^12.0.1"
+  }
+}
