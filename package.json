@@ -2,7 +2,7 @@
   "name": "fn",
   "version": "1.0.0",
   "description": "Binds.co function utilities",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
