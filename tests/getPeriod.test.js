@@ -27,4 +27,13 @@ describe('getPeriod', () => {
     ];
     invalidData.forEach(data => expect(getPeriod(data)).toBe(undefined));
   });
+
+  it('should return 0 when passing data not match', () => {
+    const data = [
+      'HeyHEy HEy',
+      'Kaiser',
+      'Samba'
+    ];
+    data.forEach(data => expect(getPeriod(data)).toBe(0));
+  });
 });
