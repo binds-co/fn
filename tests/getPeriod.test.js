@@ -28,7 +28,7 @@ describe('getPeriod', () => {
     invalidData.forEach(data => expect(getPeriod(data)).toBe(undefined));
   });
 
-  it('should return 0 when passing data not match', () => {
+  it('should return 0 when passing data that not match', () => {
     const data = [
       'HeyHEy HEy',
       'Kaiser',
