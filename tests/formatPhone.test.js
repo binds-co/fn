@@ -8,4 +8,8 @@ describe('formatPhone', () => {
   it('presume br number', () => {
     expect(format('5511959595959x')).toBe('+5511959595959');
   });
+
+  it('empty string return empty string', () => {
+    expect(format('')).toBe('');
+  });
 });
