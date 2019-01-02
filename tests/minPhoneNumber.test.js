@@ -6,10 +6,7 @@ describe('minPhoneNumber', () => {
       '+55119454545454',
       '123456789',
       '11555445511',
-      '5544557788',
-      '1195558-7100',
-      '(11)95558-7100',
-      123456
+      '5544557788'
     ];
     validNumbers.forEach(number => expect(minPhoneNumber(number)).toBe(true));
   });
