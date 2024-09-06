@@ -16,6 +16,9 @@ We follow the principles of Semantic Versioning (SemVer):
     PATCH version (0.0.X):
         Incremented for backward-compatible bug fixes or small improvements.
 -->
+### v1.5.6
+- Implementando labels traduzidas para o health score.
+    `./lib/healthScore.js`
 ### v1.5.5
 - Adicionando o helper do health score, para ajudar na conversão das labels de churn e health score.
     `./lib/healthScore.js`
