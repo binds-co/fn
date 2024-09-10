@@ -1,6 +1,6 @@
 {
   "name": "binds-fn",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "description": "Binds.co function utilities",
   "main": "./lib/index.js",
   "directories": {
