@@ -16,6 +16,8 @@ We follow the principles of Semantic Versioning (SemVer):
     PATCH version (0.0.X):
         Incremented for backward-compatible bug fixes or small improvements.
 -->
+### v1.6.1
+- Adicionando helpers para validar contatos de phone para a query `./lib/validatePhoneToQuery.js`
 ### v1.5.9
 - Adicionando helpers para validar contatos email e phone `./lib/validateEmail.js` `./lib/validatePhone.js`
 ### v1.5.8
