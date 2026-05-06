@@ -18,7 +18,7 @@ We follow the principles of Semantic Versioning (SemVer):
 -->
 ### v1.6.3
 - Evitando retornar falsy values como strings em `./lib/replaceStringVars.js`
-### v1.6.1 - v1.6.1
+### v1.6.1 - v1.6.2
 - Adicionando helpers para validar contatos de phone para a query `./lib/validatePhoneToQuery.js`
 ### v1.5.9
 - Adicionando helpers para validar contatos email e phone `./lib/validateEmail.js` `./lib/validatePhone.js`
